@@ -1,0 +1,598 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav_holder{
+    background-color: #0D6CAC;
+}
+
+.navbar{
+    max-width: 2560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.nav_logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    color: #E8F2F8;
+    font-weight: 500;
+    font-size: 21px;
+    gap: 35px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 60px;
+}
+
+.navbar .nav_menu .nav_item{
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav_menu .nav_item_link{
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #E8F2F8;
+    text-decoration: none;
+}
+
+.navbar .nav_menu .nav_item:hover {
+  color: #ffcb00;
+}
+
+.navbar .nav_menu .active_nav_item {
+  color: #ffcb00;
+}
+
+
+.nav_icons{
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.nav_icons .img{
+    display: flex;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+}
+
+.navbar .nav_menu .roundedbtn{
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 7px 14px;
+}
+
+
+
+
+
+/* <!-- HERO SECTION STARTS HERE
+    ############################# --> */
+
+
+.hero_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0D6CAC;
+    background-image: url("./Assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+
+.hero_section .content {
+  max-width: 2560px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  color: white;
+}
+
+.hero_section .content .text{
+  text-align: center;
+}
+.hero_section .content .text:nth-child(1) {
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 47px;
+  font-family: "Almarai", sans-serif;
+}
+.hero_section .content .text:nth-child(2) p:nth-child(1) {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 47px;
+  font-family: "Inter", sans-serif;
+  color: #ffcb00;
+  margin-bottom: 25px;
+}
+.hero_section .content .text:nth-child(2) p:nth-child(2) {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 35px;
+}
+.hero_section .content .text:nth-child(3) p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+
+
+
+
+.section_3 {
+  background-color: #E8F2F8;
+  padding: 100px 20px;
+}
+
+.section_3 .section3_container {
+  display: flex;
+  justify-content: space-around;
+}
+.section_3 .section3_container .prayer_timings {
+    font-family: "Almarai", "sans-serif";
+    font-size: 23px;
+    font-weight: 400;
+  border: 3px solid #ffcb00;
+  padding: 40px 15px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  width: 330px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #0d6cac;
+}
+.section_3 .section3_container .prayer_timings img {
+  width: 150px;
+  height: auto;
+}
+.section_3 .section3_container .prayers {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.section_3 .section3_container .prayers .prayer-item p:nth-child(1) {
+  text-transform: uppercase;
+}
+.section_3 .section3_container .prayers .prayer-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_3 .section3_container .prayers .prayer-item p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: "Almarai", sans-serif;
+}
+
+.section_3 .section3_container .prayers .prayer-item p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    font-family: "Almarai", sans-serif;
+}
+
+.feed_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.facebook_feed{
+    text-align: center;
+    font-family: "Montserrat", "Sans_serif";
+    font-weight: 700;
+    font-size: 33.6px;
+    color: #0D6CAC;
+    margin-bottom: 120px;
+}
+
+.feed_1{
+  width: 257px;
+  height: 310px;
+  background-color: #FAFAFA;
+  border-radius: 8px;
+}
+
+
+/* SECTION 4 STARTS HERE
+################################ */
+
+
+
+
+
+
+.section_4{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  background-color: #0D6CAC;
+  padding: 70px 30px;
+  justify-content: space-around
+}
+
+.section4_container{
+ display: flex;
+  justify-content: space-around;
+
+}
+
+.section4_content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+   align-items: center;
+  text-align: center;
+}
+
+.section4_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E8F2F8;
+  font-size: 22px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 700;
+  margin-top:  15px;
+}
+
+.p1{
+  color: #E8F2F8;
+  font-size: 34px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 900;
+}
+
+.p2{
+  margin-top: 27px;
+  color: #E8F2F8;
+  font-size: 16px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.p3{
+  margin-top: 51px;
+  color: #E8F2F8;
+  font-size: 27px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 900;
+}
+
+.p4{
+  margin-top: 27px;
+  color: #FFCB00;
+  font-size: 16px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.p5{
+  background-color: #FFCB00;
+  margin-top: 27px;
+  color: #0D6CAC;
+  font-size: 16px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 500;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+
+
+.section_5{
+  background-color: #E8F2F8;
+}
+
+.section_5_text{
+  padding-top: 80px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #0D6CAC;
+}
+
+.section5_p1{
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 700;
+  font-size: 33px;
+  margin-top: 23px;
+}
+
+
+.section5_p2{
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 27px;
+}
+
+.section5_p3{
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 38px;
+  line-height: 27px;
+}
+
+
+.section5_p4{
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 18px;
+  line-height: 27px;
+}
+
+.section5_p5{
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 27px;
+  line-height: 27px;
+  padding-bottom: 100px;
+
+}
+
+
+
+
+/* SECTION 6 GALLERY */
+/* ######################################## */
+
+
+.gallery_heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+
+.gallery .gallery-holder {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 64px;
+}
+
+.gallery .gallery-holder img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* 
+SECTION 7 STARTS HERE
+######################################### */
+
+
+
+
+.section_7{
+  background-color: #0D6CAC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.heading_map{
+  color: #E8F2F8;
+  font-size: 34px;
+  font-weight: 700;
+  font-family: "Montserrat", "Sans-Serif";
+  padding-top: 12px;
+}
+
+
+.map{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/* 
+SECTION 8 STARTS HERE
+######################################### */
+
+.footer{
+    background-image: url("./Assets/footer_image.png");
+    color: #0D6CAC;
+}
+
+.footer_container{
+  padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.footer_1{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 500;
+}
+
+.footer_2{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 600;
+  gap: 15px;
+}
+
+
+
+.footer_3{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 600;
+  gap: 27px;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.footer_3_item1{
+    font-family: "Akaya Telivigala", system-ui;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer_3_item3{
+  font-size: 16px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 600;
+}
+
+.footer_3_item2{
+  display: flex;
+  gap: 10px;
+}
+
+.footer_btn{
+  text-transform: uppercase;
+  background-color: #0D6CAC;
+  color: #E8F2F8;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footer_2 .footer_link{
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #0D6CAC;
+    text-decoration: none;
+}
+
+
+/* 
+ABOUT US PAGE STARTS HERE
+##########################################
+
+
+########################################## */
+
+
+.hero_section_aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #0D6CAC;
+    background-image: url("./Assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+
+.hero_section_aboutus .content .text_aboutus{
+  text-align: center;
+  font-size: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #E8F2F8;
+  text-transform: uppercase;
+}
+
+/* <!-- SECTION 4 STARTS HERE
+############################################# -->
+ */
+
+
+
+.p1{
+  color: #E8F2F8;
+  font-size: 34px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 900;
+}
+
+.p2{
+  width: 650px;
+  margin-top: 27px;
+  color: #E8F2F8;
+  font-size: 16px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+}
+
+
+.section_4_facilities{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section4_text{
+  padding-bottom: 20px;
+}
