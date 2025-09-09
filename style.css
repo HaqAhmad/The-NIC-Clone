@@ -105,6 +105,7 @@
   gap: 50px;
   align-items: center;
   color: white;
+  
 }
 
 .hero_section .content .text{
@@ -147,6 +148,7 @@
 .section_3 .section3_container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .section_3 .section3_container .prayer_timings {
     font-family: "Almarai", "sans-serif";
@@ -237,13 +239,13 @@
   display: flex;
   background-color: #0D6CAC;
   padding: 70px 30px;
+  flex-wrap: wrap;
   justify-content: space-around
 }
 
 .section4_container{
  display: flex;
   justify-content: space-around;
-
 }
 
 .section4_content{
