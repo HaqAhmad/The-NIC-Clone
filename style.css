@@ -53,8 +53,17 @@
 .navbar .nav_menu .nav_item:hover {
   color: #ffcb00;
 }
+.footer_container .footer_2 .nav_item:hover {
+  color: #ffcb00;
+}
+
+
 
 .navbar .nav_menu .active_nav_item {
+  color: #ffcb00;
+}
+
+.footer_container .footer_2 .active_nav_item {
   color: #ffcb00;
 }
 
@@ -251,10 +260,8 @@
 .section4_content{
   display: flex;
   flex-direction: column;
-  text-align: center;
   justify-content: center;
    align-items: center;
-  text-align: center;
   flex-wrap: wrap;
 }
 
@@ -457,6 +464,7 @@ SECTION 8 STARTS HERE
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 
