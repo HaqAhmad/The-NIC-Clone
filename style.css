@@ -571,12 +571,12 @@ ABOUT US PAGE STARTS HERE
   font-size: 34px;
   font-family: "Montserrat", "Sans-Serif";
   font-weight: 700;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .p2{
   width: 650px;
-  margin-top: 27px;
+  padding-top: 5px;
   color: #E8F2F8;
   font-size: 16px;
   font-family: "Montserrat", "Sans-Serif";
@@ -598,4 +598,9 @@ ABOUT US PAGE STARTS HERE
 
 .section4_text{
   padding-bottom: 20px;
+}
+
+.section4_image{
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
