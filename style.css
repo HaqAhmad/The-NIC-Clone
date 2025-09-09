@@ -36,6 +36,7 @@
     gap: 35px;
     font-family: "Montserrat", sans-serif;
     margin-left: 60px;
+    flex-wrap: wrap;
 }
 
 .navbar .nav_menu .nav_item{
