@@ -216,6 +216,7 @@
   border-radius: 8px;
 }
 
+
 .section_4{
   margin: 0px;
   padding: 0px;
@@ -402,6 +403,8 @@
   font-weight: 700;
   font-family: "Montserrat", "Sans-Serif";
   padding-top: 12px;
+  width: auto;
+  height: auto;
 }
 
 .map{
