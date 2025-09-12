@@ -403,15 +403,7 @@
   font-weight: 700;
   font-family: "Montserrat", "Sans-Serif";
   padding-top: 12px;
-  width: auto;
-  height: auto;
 }
-
-.map{
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-
 
 .footer{
     background-image: url("./Assets/footer_image.png");
@@ -467,11 +459,13 @@
   font-size: 16px;
   font-family: "Montserrat", "Sans-Serif";
   font-weight: 600;
+  
 }
 
 .footer_3_item2{
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
 
 .footer_btn{
@@ -559,3 +553,12 @@ img {
   height: auto;
   display: block;
 }
+
+
+
+
+
+
+
+
+
