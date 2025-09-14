@@ -613,8 +613,8 @@ img {
   color: #E8F2F8;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
+  justify-content: center;
+  gap: 100px;
   text-align: center;
 }
 
