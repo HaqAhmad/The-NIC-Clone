@@ -266,7 +266,6 @@
   font-weight: 400;
   line-height: 27px;
   width: 100%;
-  max-width: 650px;
   padding: 0 15px;
   text-align: justify;
 }
@@ -669,4 +668,129 @@ border-radius: 30px;
 border: 2px solid #FFCB00;
 color: #FFCB00;
 cursor: pointer;
+}
+
+
+.p1ed{
+  color: #FFCB00;
+  text-align: left;
+}
+
+
+
+.arabic{
+   margin: 0px;
+  padding: 0px;
+  display: flex;
+  background-color: #0D6CAC;
+  padding: 70px 30px;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+
+.arabic_school{
+  display: flex;
+  justify-content: space-around;
+}
+
+.arabic_container{
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.team_brief{
+  color: #E8F2F8;
+  background-color: #0D6CAC;
+  font-size: 20.8px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 600;
+  line-height: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left ;
+  padding-top: 60px;
+  margin: 0;
+  flex-wrap: wrap;
+} 
+
+
+
+.waqf1{
+  background-color: #0D6CAC;
+  font-family: "Montserrat", "Sans-Serif";
+  padding-top: 100px;
+}
+
+.waqf_container{
+   padding-top: 74px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 70px;
+  padding-bottom: 120px;
+}
+
+.waqf_items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.waqf_h1{
+  color: #FFCB00;
+  font-size: 34px;
+  font-weight: 700;
+  padding-top: 100px;
+}
+
+.waqf_p1{
+  color: #E8F2F8;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-top: 19px;
+}
+
+.waqf_p2{
+  color: #FFCB00;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-top: 8px;
+}
+
+.waqf_p1b{
+  color: #E8F2F8;
+  font-size: 20.8px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-top: 19px;
+}
+
+.waqf_p2b{
+  color: #FFCB00;
+  font-size: 20.8px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-top: 8px;
+}
+
+
+.waqfimg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
